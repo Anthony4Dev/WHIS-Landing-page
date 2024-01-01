@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none ;
+    border: none;
+    text-decoration: none;
+    background: #b26a9f;
+}
+
+h3{
+    color: #381d2c;
+    background: #e71efd9e;
+    text-align: center;
+}
