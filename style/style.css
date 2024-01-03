@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none ;
+    list-style: none;
     border: none;
     text-decoration: none;
     background: #b26a9f;
@@ -26,4 +26,49 @@ h3 {
     color: #381d2c;
     background: #e71efd9e;
     margin: 0; 
+}
+
+.reserve{
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.first-section{
+    text-align: center;
+}
+
+.menu-btn {
+    display: flex; /* Exibe os itens em linha */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    padding-right: 20px;
+    background-color: #e71efd9e;
+}
+
+.menu-btn li {
+    margin-right: 10px; /* Espaçamento entre os itens */
+    background-color: #e71efd9e;
+}
+
+.menu-btn li:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+    background-color: #e71efd9e;
+}
+
+a{
+    background-color: #e71efd9e;
+}
+
+.bi.bi-instagram{
+    background-color: #e71efd9e;
+}
+
+.bi.bi-whatsapp{
+    background-color: #e71efd9e;
+}
+
+.bi.bi-bag-dash{
+    background-color: #e71efd9e;
 }
