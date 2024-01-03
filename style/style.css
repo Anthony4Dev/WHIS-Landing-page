@@ -8,19 +8,22 @@
     background: #b26a9f;
 }
 
-#logo_navbar{
-height: 100px;
-width: auto;
-border-radius: 50px;
-margin-top: 10px;
+.navbar {
+    background-color: #e71efd9e;
+    display: flex;
+    align-items: center;
 }
 
-h3{
+#logo_navbar {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+}
+
+h3 {
     color: #381d2c;
     background: #e71efd9e;
-    text-align: center;
-}
-
-.navbar{
-    background-color: #e71efd9e;
+    margin: 0; /* Remova o espaçamento padrão do h3 */
 }
