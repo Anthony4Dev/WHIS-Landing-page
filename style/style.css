@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,23 +19,30 @@
     width: auto;
     border-radius: 50px;
     margin-top: 10px;
-    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+    margin-right: 450px;
+    /* Espaçamento entre a logo e o texto */
 }
 
+.bg-image {
+    background: url(../assets/croche_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    background-color: transparent;
+}
 
-
-h1,h2{
-    background-color:#381d2c;
+h1,
+h2 {
+    background-color: #381d2c;
     color: #fff;
 }
 
 h3 {
     color: #381d2c;
     background: #e71efd9e;
-    margin: 0; 
+    margin: 0;
 }
 
-.reserve{
+.reserve {
     background-color: #fff;
     cursor: pointer;
     margin-left: 10px;
@@ -43,46 +50,50 @@ h3 {
     width: 120px;
 }
 
-.first-section{
+.first-section {
     text-align: center;
     background: #000;
 }
 
-.main-content{
-    background-color:#381d2c;
+.main-content {
+    background-color: #381d2c;
     padding-bottom: 200px;
     margin-top: 250px;
 }
 
 .menu-btn {
-    display: flex; /* Exibe os itens em linha */
-    justify-content: flex-end; /* Alinha os itens à direita */
+    display: flex;
+    /* Exibe os itens em linha */
+    justify-content: flex-end;
+    /* Alinha os itens à direita */
     padding-right: 20px;
     background-color: #e71efd9e;
 }
 
 .menu-btn li {
-    margin-right: 10px; /* Espaçamento entre os itens */
+    margin-right: 10px;
+    /* Espaçamento entre os itens */
     background-color: #e71efd9e;
 }
 
 .menu-btn li:last-child {
-    margin-right: 0; /* Remove o espaçamento do último item */
+    margin-right: 0;
+    /* Remove o espaçamento do último item */
     background-color: #e71efd9e;
 }
 
-a{
+a {
     background-color: #e71efd9e;
 }
 
-.bi.bi-instagram{
+.bi.bi-instagram {
     background-color: #e71efd9e;
 }
 
-.bi.bi-whatsapp{
+.bi.bi-whatsapp {
     background-color: #e71efd9e;
 }
 
-.bi.bi-bag-dash{
+.bi.bi-bag-dash {
     background-color: #e71efd9e;
 }
