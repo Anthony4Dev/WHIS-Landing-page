@@ -27,9 +27,9 @@ body {
     width: auto;
     border-radius: 50px;
     margin-top: 10px;
-    margin-right: 450px;
-    /* Espaçamento entre a logo e o texto */
-    border-color: #472D44;
+    margin-left: 10px;
+    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+    border-color: #b1def1;
     border-style: solid;
 }
 
