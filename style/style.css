@@ -68,6 +68,8 @@ h3 {
 .second-section {
     text-align: center;
     margin-top: 250px;
+    border: #000000;
+    border-style: solid;
     background-color: #AD289C;
     color: #351231;
     padding-bottom: 200px;
@@ -80,6 +82,9 @@ h3 {
 
 #second-section-header {
     background-color: inherit;
+    border: #000;
+    border-style: solid;
+    border-top: none;
 }
 
 .main-content {
