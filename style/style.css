@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     padding-bottom: 100%;
 }
 
@@ -18,7 +18,7 @@ body{
     display: flex;
     align-items: center;
     border-color: #472D44;
-    border-style:solid;
+    border-style: solid;
     border-bottom: none;
 }
 
@@ -27,15 +27,22 @@ body{
     width: auto;
     border-radius: 50px;
     margin-top: 10px;
-    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+    margin-right: 450px;
+    /* Espaçamento entre a logo e o texto */
     border-color: #472D44;
-    border-style:solid;
+    border-style: solid;
 }
 
 h1,
 h2 {
     background-color: #332A32;
     color: #fff;
+}
+
+#main-content-header {
+    border: #000;
+    border-style: solid;
+    border-top: none;
 }
 
 h3 {
@@ -58,6 +65,23 @@ h3 {
     background: #000;
 }
 
+.second-section {
+    text-align: center;
+    margin-top: 250px;
+    background-color: #AD289C;
+    color: #351231;
+    padding-bottom: 200px;
+}
+
+#second-section-text {
+    background-color: inherit;
+    margin-top: 15px ;
+}
+
+#second-section-header {
+    background-color: inherit;
+}
+
 .main-content {
     background-color: #AD289C;
     padding-bottom: 250px;
@@ -68,13 +92,11 @@ h3 {
 
 .menu-btn {
     display: flex;
-    /* Exibe os itens em linha */
     justify-content: flex-end;
-    /* Alinha os itens à direita */
     padding-right: 20px;
     background-color: #E007C3;
     border-color: #472D44;
-    border-style:solid;
+    border-style: solid;
     border-top: none;
 }
 
