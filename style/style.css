@@ -5,13 +5,20 @@
     list-style: none;
     border: none;
     text-decoration: none;
-    background: #b26a9f;
+    background: #f1b1e1;
+}
+
+body{
+    padding-bottom: 100%;
 }
 
 .navbar {
-    background-color: #e71efd9e;
+    background-color: #E007C3;
     display: flex;
     align-items: center;
+    border-color: #472D44;
+    border-style:solid;
+    border-bottom: none;
 }
 
 #logo_navbar {
@@ -19,8 +26,9 @@
     width: auto;
     border-radius: 50px;
     margin-top: 10px;
-    margin-right: 450px;
-    /* Espaçamento entre a logo e o texto */
+    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+    border-color: #472D44;
+    border-style:solid;
 }
 
 .bg-image {
@@ -32,13 +40,13 @@
 
 h1,
 h2 {
-    background-color: #381d2c;
+    background-color: #332A32;
     color: #fff;
 }
 
 h3 {
-    color: #381d2c;
-    background: #e71efd9e;
+    color: #332A32;
+    background: #E007C3;
     margin: 0;
 }
 
@@ -56,9 +64,11 @@ h3 {
 }
 
 .main-content {
-    background-color: #381d2c;
-    padding-bottom: 200px;
-    margin-top: 250px;
+    background-color: #AD289C;
+    padding-bottom: 250px;
+    margin-top: 350px;
+    border: #000000;
+    border-style: solid;
 }
 
 .menu-btn {
@@ -67,33 +77,36 @@ h3 {
     justify-content: flex-end;
     /* Alinha os itens à direita */
     padding-right: 20px;
-    background-color: #e71efd9e;
+    background-color: #E007C3;
+    border-color: #472D44;
+    border-style:solid;
+    border-top: none;
 }
 
 .menu-btn li {
     margin-right: 10px;
     /* Espaçamento entre os itens */
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
 
 .menu-btn li:last-child {
     margin-right: 0;
     /* Remove o espaçamento do último item */
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
 
 a {
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
 
 .bi.bi-instagram {
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
 
 .bi.bi-whatsapp {
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
 
 .bi.bi-bag-dash {
-    background-color: #e71efd9e;
+    background-color: #E007C3;
 }
