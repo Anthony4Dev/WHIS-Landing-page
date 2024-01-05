@@ -6,6 +6,7 @@
     border: none;
     text-decoration: none;
     background: #f1b1e1;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -31,13 +32,6 @@ body{
     border-style:solid;
 }
 
-.bg-image {
-    background: url(../assets/croche_logo.jpg);
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
-    background-color: transparent;
-}
-
 h1,
 h2 {
     background-color: #332A32;
@@ -54,6 +48,7 @@ h3 {
     background-color: #fff;
     cursor: pointer;
     margin-left: 10px;
+    margin-top: 5px;
     border-radius: 5px;
     width: 120px;
 }
