@@ -14,13 +14,14 @@ body {
 }
 
 .navbar {
-    background-color: #E007C3;
     display: flex;
     align-items: center;
     border-color: #472D44;
     border-style: solid;
     border-bottom: none;
+    background-image: linear-gradient(to right, #E007C3, #AD289C);
 }
+
 
 #logo_navbar {
     height: 100px;
@@ -28,10 +29,25 @@ body {
     border-radius: 50px;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 450px; /* Espaçamento entre a logo e o texto */
+    margin-right: 463px;
+    /* Espaçamento entre a logo e o texto */
     border-color: #b1def1;
     border-style: solid;
 }
+
+.card {
+    width: 100%;
+    max-width: none; /* Remove o limite máximo de largura */
+    margin: 0; /* Remove margens */
+    overflow: hidden; /* Oculta qualquer parte da imagem que estenda além da altura definida */
+}
+
+#imagem {
+    width: 100%;
+    height: 330px; /* Define a altura desejada */
+    object-fit: cover; /* Mantém a proporção da imagem, cortando se necessário */
+}
+
 
 h1,
 h2 {
@@ -46,8 +62,8 @@ h2 {
 }
 
 h3 {
-    color: #332A32;
-    background: #E007C3;
+    color: #000000;
+    background-image: linear-gradient(to bottom, #E007C3, #AD289C);
     margin: 0;
 }
 
@@ -70,14 +86,15 @@ h3 {
     margin-top: 250px;
     border: #000000;
     border-style: solid;
-    background-color: #AD289C;
+    background-image: linear-gradient(to right, #E007C3, #AD289C);
     color: #351231;
     padding-bottom: 200px;
 }
 
 #second-section-text {
-    background-color: inherit;
-    margin-top: 15px ;
+    background-image: linear-gradient(to right, #de58cc, #ba59ad);
+    color: #000000;
+    margin-top: 15px;
 }
 
 #second-section-header {
@@ -88,9 +105,9 @@ h3 {
 }
 
 .main-content {
-    background-color: #AD289C;
+    background-image: linear-gradient(to right, #E007C3, #AD289C);
     padding-bottom: 250px;
-    margin-top: 350px;
+    margin-top: -4px;
     border: #000000;
     border-style: solid;
 }
@@ -99,7 +116,7 @@ h3 {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-    background-color: #E007C3;
+    background-image: linear-gradient(to right, #E007C3, #AD289C);
     border-color: #472D44;
     border-style: solid;
     border-top: none;
@@ -108,27 +125,30 @@ h3 {
 .menu-btn li {
     margin-right: 10px;
     /* Espaçamento entre os itens */
-    background-color: #E007C3;
+    background-image: linear-gradient(to right, #E007C3, #AD289C);
 }
 
 .menu-btn li:last-child {
     margin-right: 0;
     /* Remove o espaçamento do último item */
-    background-color: #E007C3;
+    background-color: #AD289C;
 }
 
 a {
-    background-color: #E007C3;
+    background-color: #AD289C;
+    color: #000;
 }
 
 .bi.bi-instagram {
-    background-color: #E007C3;
+    background-color: #AD289C;
 }
 
 .bi.bi-whatsapp {
-    background-color: #E007C3;
+    background-color: #07e053;
+    border-radius: 50%;
 }
 
 .bi.bi-bag-dash {
-    background-color: #E007C3;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
