@@ -83,18 +83,20 @@ h3 {
 
 .second-section {
     text-align: center;
-    margin-top: 250px;
+    margin-top: -4px;
     border: #000000;
     border-style: solid;
     background-image: linear-gradient(to right, #E007C3, #AD289C);
     color: #351231;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
 }
 
 #second-section-text {
-    background-image: linear-gradient(to right, #de58cc, #ba59ad);
-    color: #000000;
+    background-color: #332A32;
+    color: #fff;
     margin-top: 15px;
+    border: #000;
+    border-style: solid;
 }
 
 #second-section-header {
@@ -144,11 +146,11 @@ a {
 }
 
 .bi.bi-whatsapp {
-    background-color: #07e053;
+    background-color: #AD289C;
     border-radius: 50%;
 }
 
 .bi.bi-bag-dash {
-    background-color: #ffffff;
+    background-color: #AD289C;
     border-radius: 50%;
 }
